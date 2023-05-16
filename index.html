@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://allfont.ru/allfont.css?fonts=furore" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="d-lg-flex align-items-center d-none">
+        <a class="p-2" href="#">
+            <img src="./images/logo.png" alt="logo" width="417px" height="62px">
+        </a>
+        <div class="p-2 header__caption">строим дома, бани, дачи и срубы из бруса с 1991 года</div>
+        <div class="header__contacts p-2 ml-auto justify-content-end">
+            <a href="#"><img src="./images/phone_icon.png" alt="phone_icon"></a>
+            <ul class="contacts__phones">
+                <li>+7(3952)705-147</li>
+                <li>+7(3952)669-607</li>
+            </ul>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between sticky-top m-0 w-100">
+        <a class="navbar-brand d-block d-lg-none float-start ml-4" href="#">
+            <img src="./images/logo.png" alt="logo" width="170px" height="30px">
+        </a>
+        <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse h-100 w-100 align-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav h-100">
+                <li class="nav-item text-center">
+                    <a class="nav-link text-black" href="#head__advantages">Преимущества</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#head__examples">Наши работы</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#head__price">Прайс</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#head__contacts">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="head_picture" class="text-center mx-2">
+        <div class="d-flex align-items-center h-100">
+            <div id="head_picture__label" class="text-white px-2">
+                <h1>СТРОИТЕЛЬСТВО ДОМОВ И БАНЬ ИЗ БРУСА В ИРКУТСКЕ ОТ ФУНДАМЕНТА И ПОД КЛЮЧ!</h1>
+            </div>
+        </div>
+    </div>
+    <p class="text-center">С 1991г мы строим брусовые дома в Иркутске.</p>
+    <p class="text-center">Огромный опыт</p>
+    <!-- Заменить звездочку на без букв -->
+    <div id="amount_objects" class="text-center mx-auto">
+        <div  class="d-flex flex-column justify-content-center align-content-center h-100">
+            <div id="more">БОЛЕЕ</div>
+            <div id="amount_objects__number">800</div>
+        </div>
+    </div>
+    <p class="text-center">построенных объектов</p>
+    <h2 id="head__advantages" class="col-8 headline mb-5 mx-auto">ПОЧЕМУ С НАМИ СТОИТ РАБОТАТЬ?</h2>
+    <p class="mx-2">Основное направление работы компании — строительство домов из бруса. 
+        У нас большой выбор готовых решений бань и домов. Так же мы построим 
+        сруб или дом по вашему проекту.</p>
+    <div  class="row align-content-center mb-5">
+        <div class="col advantage_item justify-content-center align-content-center">
+            <img src="./images/Star.png" alt="star">
+            <div class="advantage_item__label">Собственное производство и площадка для сборки домов</div>
+        </div>
+        <div class="col advantage_item">
+            <img src="./images/Star.png" alt="star">
+            <div class="advantage_item__label">Подробная смета на предстоящие строительство</div>
+        </div>
+        <div class="col advantage_item">
+            <img src="./images/Star.png" alt="star">
+            <div class="advantage_item__label">Поэтапная оплата</div>
+        </div>
+        <div class="col advantage_item">
+            <img src="./images/Star.png" alt="star">
+            <div class="advantage_item__label">Гарантия на все виды строительных работ</div>
+        </div>
+    </div>
+    <div id="videoad" class="d-flex mx-2 col-11 col-md-6 justify-content-center embed-responsive embed-responsive-16by9">
+        <video controls class="embed-responsive-item" allowfullscreen> 
+            <source src="./files/1.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <h2 id="head__examples" class="headline mb-5">ПРИМЕРЫ РАБОТ</h2>
+    <div id="carouselExampleControls" class="carousel slide col-md-6 mx-auto" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/slide1.jpg" alt="Первый слайд">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/slide2.jpg" alt="Второй слайд">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/slide3.jpg" alt="Третий слайд">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/slide4.jpg" alt="Четвертый слайд">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <h2 id="head__price" class="headline">ПРАЙС ЛИСТ</h2>
+    <h3 id="price_caption" class="headline">Дома и бани из бруса (материал + работа)</h3>
+    <div class="d-flex justify-content-center mb-5">
+        <div class="d-none flex-column price__item">
+            <h4 class="price__name">Сруб из бруса 10x18</h4>
+            <p class="price__value">от 23 000 руб/м²*</p>
+            <ul class="price__list">
+                <li>сруб из бруса 10х18</li>
+                <li>пол (доска 40х180мм)</li>
+                <li>черновой потолок (доска 25х180мм)</li>
+                <li>черепной брусок 50х70мм</li>
+                <li>оконные, дверные колоды (брус 10х18)</li>
+                <li>стропильная система (доска 40х180мм)</li>
+                <li>обрешетка (доска 25х180мм)</li>
+                <li>кровельный материал (металлопофиль)</li>
+                <li>крепеж (саморезы по дереву, кровельныесаморезы, шканты)</li>
+            </ul>
+            <p class="price__note">*по площади пола</p>
+        </div>
+        <div class="d-none flex-column price__item">
+            <h4 class="price__name">Сруб из бруса 18x18</h4>
+            <p class="price__value">от 25 000 руб/м²*</p>
+            <ul class="price__list">
+                <li>сруб из бруса 18х18</li>
+                <li>пол (доска 40х180мм)</li>
+                <li>черновой потолок (доска 25х180мм)</li>
+                <li>черепной брусок 50х70мм</li>
+                <li>оконные, дверные колоды (брус 10х18)</li>
+                <li>стропильная система (доска 40х180мм)</li>
+                <li>обрешетка (доска 25х180мм)</li>
+                <li>кровельный материал (металлопофиль)</li>
+                <li>крепеж (саморезы по дереву, кровельныесаморезы, шканты)</li>
+            </ul>
+            <p class="price__note">*по площади пола</p>
+        </div>
+    </div>
+    <p id="finish_price">Окончательная стоимость зависит от количества капитальных перегородок, конфигурации крыши и кровельного материала: металлочерепица, андулин, мягкая черепица и тд.).</p>
+    <h2 id="head__contacts" class="headline">НАШИ КОНТАКТЫ</h2>
+    <div id="contacts_form" class="d-flex justify-content-between">
+        <div id="contacts" class= "d-flex flex-column">
+            <p id="contacts__company">Компания Ларис-Строй</p>
+            <div class="contacts__elem">
+                <img src="./images/Star.png" alt="geo_icon" width="50px" height="50px">
+                <div class="contacts__item">
+                    <p class="contacts__item__name">Адрес:</p>
+                    <p class="contacts__item__data">Адрес: г. Иркутск, ул. 2-я Аларская, 19 (район Ипподрома)</p>
+                </div>
+            </div>
+            <div class="contacts__elem">
+                <img src="./images/Star.png" alt="time_icon" width="50px" height="50px">
+                <div class="contacts__item">
+                    <p class="contacts__item__name">Часы работы:</p>
+                    <p class="contacts__item__data">пн-пт: 10:00 - 17:00</p>
+                    <p class="contacts__item__data">сб: 10:00 - 16:00</p>
+                </div>
+            </div>
+            <div class="contacts__elem">
+                <img src="./images/Star.png" alt="phone_icon" width="50px" height="50px">
+                <div class="contacts__item">
+                    <p class="contacts__item__name">Контактные телефоны:</p>
+                    <p class="contacts__item__data">+7(3952) 70-51-47</p>
+                    <p class="contacts__item__data">+7(3952) 669-607</p>
+                </div>
+            </div>
+            <div class="contacts__elem">
+                <img src="./images/Star.png" alt="mail_icon" width="50px" height="50px">
+                <div class="contacts__item">
+                    <p class="contacts__item__name">Email:</p>
+                    <p class="contacts__item__data">laris-irk@yandex.ru</p>
+                </div>
+            </div>
+        </div>
+        <div id="laris_geo">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/63/irkutsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Иркутск</a><a href="https://yandex.ru/maps/63/irkutsk/house/2_ya_alarskaya_ulitsa_19/ZUkCaARkT0IAWkJvYWJzeXtnYg8=/?ll=104.348045%2C52.288396&utm_medium=mapframe&utm_source=maps&z=18.08" style="color:#eee;font-size:12px;position:absolute;top:14px;">2-я Аларская улица, 19 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=104.348045%2C52.288396&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozNzUxMDg4MDcwEkLQoNC-0YHRgdC40Y8sINCY0YDQutGD0YLRgdC6LCAyLdGPINCQ0LvQsNGA0YHQutCw0Y8g0YPQu9C40YbQsCwgMTkiCg2MsdBCFV4mUUI%2C&z=18.08" width="100" height="506" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </div>
+    </div>
+    <footer class="page-footer text-light bg-dark d-flex justify-content-between align-content-center pt-4 pb-4">
+        <div class="footer-copyright ml-5">© 1991- 2023 · Компания «Ларис – Строй»</div>
+        <div class="d-flex justify-content-around col-6">
+            <a href="#head__advantages">Преимущества</a>
+            <a href="#head__examples">Наши работы</a>
+            <a href="#head__price">Прайс</a>
+            <a href="#head__contacts">Контакты</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>
