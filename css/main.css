@@ -209,28 +209,35 @@ h1{
 }
 
 #before_contacts{
-    margin-bottom: 96px;
+    margin-bottom: 20px;
 }
 
 #head__contacts{
     margin-bottom: 24px;
 }
 
+#area_for_bottom_star{
+    padding-top: 65px;
+    position: relative;
+    overflow: hidden;
+}
+
 #footer_back_star{
     position: absolute;
+    bottom: 0;
+    right: -71px;
     z-index: -1;
-    bottom: -2444px;
-    right: -363px;
-    overflow: auto;
-    object-fit: cover;
+    bottom: -1882px;
+    right: -395px;
 }
 
 #footer_shadow_back_star{    
     position: absolute;
-    z-index: -2;
-    bottom: -2444px;
+    bottom: 0;
+    right: -71px;
+    z-index: -1;
+    bottom: -1875px;
     right: -360px;
-    overflow: auto;
 }
 
 
