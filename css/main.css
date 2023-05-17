@@ -1,14 +1,36 @@
 @font-face {
     font-family: "Furore";
+    font-weight: 400;
     src: url('../fonts/Furore.otf')
 }
+
+p {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.roboto {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+.furore {
+    font-family: 'Furore', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+.main_text_size {
+    font-size: 14px;
+    line-height: 20px;
+}
+
 header {
     height: 139px;
 }
 
 .header__caption {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 20px;
 }
 
@@ -29,6 +51,8 @@ header {
     background-color: #FFF;
     justify-content: space-around;
     padding: 22px 0 22px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 38px;
 }
 
 .navbar-nav > li{
@@ -50,16 +74,15 @@ header {
 }
 
 #head_picture{
-    height: 200px;
     background-image: url('../images/house.png');
     background-repeat: no-repeat;
-    background-size:100% 100%;
-    /* margin: 0 5em 0 5em 364px; */
+    background-size: contain;
+    margin-bottom: 20px;
+    height: calc(74vw * 9 / 16);
 }
 
 
 h1{
-    font-family: 'Furore';
     font-size: 20px;
     line-height: 26px;  
 }
@@ -69,7 +92,6 @@ h1{
     width: 150px;
     background-image: url('../images/goldfigure.png');
     background-repeat: no-repeat;
-    background-size: 150px 150px;
 }
 
 #more{
@@ -90,12 +112,45 @@ h1{
     color: #FFF;
 }
 
+#ready_objects{
+    margin-bottom: 78px;
+}
+
+#header_back_star{
+    position: absolute;
+    z-index: -1;
+    top: -1130px;
+    left: -330px
+}
+
+#header_shadow_back_star{    
+    position: absolute;
+    z-index: -2;
+    top: -1136px;
+    left: -374px}
+
+.carousel{
+    margin-bottom: 129px;
+}
+
+.carousel-indicators{
+    bottom: -40px;
+}
+
+.carousel-indicators > li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #FFF;
+}
+
+.carousel-indicators > li.active {
+    background-color: #A6652E;;
+}
 
 .headline{
     text-align: center;
-    font-family: 'Furore';
     font-size: 20px;
-    padding-top: 102px;
 }
 
 .advantage_item{
@@ -106,12 +161,14 @@ h1{
 
 .advantage_item__label{
     text-align: center;
-    font-family: 'Roboto';
-    font-size: 20px;
 }
 
 #videoad {
-    margin-bottom: 290px;
+    margin-bottom: 20px;
+}
+
+#order_example{
+    margin-bottom: 69px;
 }
 
 #carouselExampleControls {
@@ -119,65 +176,67 @@ h1{
 }
 
 #price_caption {
-    font-size: 24px;
-    margin-top: 10px;
+    font-size: 14px;
 }
 
 .price__item {
-    width: 428px;
     flex: 0 1 auto;
-    padding: 20px 15px 30px 30px; 
+    padding: 20px 15px 30px 0; 
     border: 1px solid #D9D9D9;
     border-radius: 10px;
 }
 
-.price__item+ .price__item {
-    margin-left: 100px;
-}
 
 .price__name {
     text-align: center;
-    font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 24px;
+    margin-bottom: 63px;
 }
 
 .price__value {
     text-align: center;
-    font-family: 'Roboto';
-    font-size: 36px;
+    font-size: 24px;
+    margin-bottom: 37px;
 }
 
 .price__list {
-    font-family: 'Roboto';
     font-size: 16px
 }
 
 .price__note{
     text-align: right;
-    font-family: 'Roboto';
     font-size: 12px;
 }
 
-#finish_price {
-    width: 80%;
-    font-family: 'Roboto';;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-bottom: 300px;
+#before_contacts{
+    margin-bottom: 96px;
 }
 
-
-#contacts_form {
-    margin-bottom: 70px;
+#head__contacts{
+    margin-bottom: 24px;
 }
 
-#contacts {
-    margin-left: 50px;
+#footer_back_star{
+    position: absolute;
+    z-index: -1;
+    bottom: -2444px;
+    right: -363px;
+    overflow: auto;
+    object-fit: cover;
 }
+
+#footer_shadow_back_star{    
+    position: absolute;
+    z-index: -2;
+    bottom: -2444px;
+    right: -360px;
+    overflow: auto;
+}
+
 
 #contacts__company{
-    font-family: 'Roboto';
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .contacts__elem {
@@ -192,19 +251,20 @@ h1{
 }
 
 .contacts__item__name{
-    font-family: 'Roboto';;
-    font-size: 14px;
     margin-bottom: 0;
 }
 
 .contacts__item__data{
-    font-family: 'Roboto';;
-    font-size: 20px;
     margin-bottom: 0;
 }
 
 #laris_geo {
     margin-right: 30px;
+}
+
+footer {
+    background-color: #A6652E;
+    color: #FFF;
 }
 
 footer a {
