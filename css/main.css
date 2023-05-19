@@ -52,7 +52,6 @@ header {
     justify-content: space-around;
     padding: 22px 0 22px 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 38px;
 }
 
 .navbar-nav > li{
@@ -73,6 +72,13 @@ header {
     padding-top: 32px;
 }
 
+#area_top_star{
+    padding-top: 38px;
+    padding-bottom: 65px;
+    position: relative;
+    overflow: hidden;
+}
+
 #head_picture{
     background-image: url('../images/house.png');
     background-repeat: no-repeat;
@@ -90,8 +96,9 @@ h1{
 #amount_objects{
     height: 150px;
     width: 150px;
-    background-image: url('../images/goldfigure.png');
+    background-image: url('../images/newStar.svg');
     background-repeat: no-repeat;
+    z-index: 2;
 }
 
 #more{
@@ -118,16 +125,34 @@ h1{
 
 #header_back_star{
     position: absolute;
+    bottom: 0;
+    right: -71px;
     z-index: -1;
-    top: -1130px;
-    left: -330px
+    bottom: 40px;
+    right: -360px;
 }
 
 #header_shadow_back_star{    
     position: absolute;
-    z-index: -2;
-    top: -1136px;
-    left: -374px}
+    bottom: 0;
+    right: -71px;
+    z-index: -1;
+    bottom: 40px;
+    right: -320px;
+}
+
+#examplearea{
+    position: relative;
+    overflow: hidden;
+}
+
+#example_top_star{
+    position: absolute;
+}
+
+#example_shadow_top_star{
+    position: absolute;
+}
 
 .carousel{
     margin-bottom: 129px;
@@ -180,12 +205,27 @@ h1{
 }
 
 .price__item {
+    position: relative;
+    overflow: hidden;
     flex: 0 1 auto;
     padding: 20px 15px 30px 0; 
     border: 1px solid #D9D9D9;
     border-radius: 10px;
 }
 
+#starprice{
+    position: absolute;
+    z-index: -1;
+}
+
+#shadowstarprice{
+    position: absolute;
+    z-index: -1;
+}
+
+.imagepos{
+    position: absolute;
+}
 
 .price__name {
     text-align: center;
