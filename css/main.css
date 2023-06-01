@@ -228,7 +228,7 @@ h1{
 /* КОнтакты */
 
 #area_for_bottom_star{
-    margin-top: 10px;
+    margin-top: 70px;
     padding-top: 78px;
     position: relative;
     overflow: hidden;
@@ -332,7 +332,12 @@ footer a:hover {
         height: 150px;
     }
 
+    #order_example{
+        margin-bottom: 230px;
+    }
+
     #exampletoparea{
+        padding-top: 0;
         background: none;
     }
 
@@ -351,11 +356,11 @@ footer a:hover {
     #examplearea{
         background:none;
         padding-bottom: 0;
-        margin-bottom: 130px;
+        margin-bottom: 230px;
     }
 
     #head__price{
-        margin-bottom: 80px;
+        margin-bottom: 48px;
     }
 
     .price__item{
@@ -363,7 +368,7 @@ footer a:hover {
     }
 
     #price_caption{
-        margin-bottom: 80px;           
+        margin-bottom: 32px;           
     }
 
     .price__name{
