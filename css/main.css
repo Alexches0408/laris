@@ -50,6 +50,7 @@
     margin-bottom: 35px;
 }
 
+
 /*Header */
 
 header {
@@ -227,7 +228,7 @@ h1{
 /* КОнтакты */
 
 #area_for_bottom_star{
-    margin-top: 10px;
+    margin-top: 70px;
     padding-top: 78px;
     position: relative;
     overflow: hidden;
@@ -331,7 +332,12 @@ footer a:hover {
         height: 150px;
     }
 
+    #order_example{
+        margin-bottom: 230px;
+    }
+
     #exampletoparea{
+        padding-top: 0;
         background: none;
     }
 
@@ -339,14 +345,22 @@ footer a:hover {
         background-color: #FFF;
     }
 
+    .item-third>img{max-width:100%;height:auto}
+    .multi-carousel{overflow:hidden;background:linear-gradient(90deg, #434343 0%, rgba(150, 124, 102, 0) 25.57%, rgba(150, 124, 102, 0) 71.7%, #434343 100%);}
+    .multi-carousel .carousel-inner{width:200%;left:-25%;}
+    .carousel-inner .carousel-item-right.active,.carousel-inner .carousel-item-next{transform:translateX(25%)}
+    .carousel-inner .carousel-item-left.active,.carousel-inner .carousel-item-prev{transform:translateX(-25%)}
+    .carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0)}
+    .item-third{float:left;width:25%;background-size:cover;height:auto}
+
     #examplearea{
         background:none;
         padding-bottom: 0;
-        margin-bottom: 130px;
+        margin-bottom: 230px;
     }
 
     #head__price{
-        margin-bottom: 80px;
+        margin-bottom: 48px;
     }
 
     .price__item{
@@ -354,7 +368,7 @@ footer a:hover {
     }
 
     #price_caption{
-        margin-bottom: 80px;           
+        margin-bottom: 32px;           
     }
 
     .price__name{
